@@ -10,7 +10,7 @@ It allows users to jump back to any point and branch conversations without conte
 - Branch and revisit any node
 - Clear individual branches or entire tree
 - Groq-powered LLM responses
-- FastAPI backend + Streamlit frontend
+- FastAPI backend + React+vite frontend
 
 ## Tech Stack
 - FastAPI
