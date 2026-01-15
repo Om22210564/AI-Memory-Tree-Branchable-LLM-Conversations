@@ -1,0 +1,147 @@
+.node-panel {
+  background: #1a1f3a;
+  border: 1px solid #2a2f4a;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 900px;
+}
+
+.node-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2a2f4a;
+}
+
+.node-header h2 {
+  margin: 0;
+  color: #5f9ed6;
+  font-size: 24px;
+}
+
+.node-depth {
+  color: #7a7a8a;
+  font-size: 14px;
+}
+
+.node-section {
+  margin-bottom: 25px;
+}
+
+.node-section h3 {
+  color: #ff6f61;
+  font-size: 16px;
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.node-section p {
+  color: #a0a0b0;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.node-content {
+  background: #0a0e27;
+  border: 1px solid #2a2f4a;
+  border-radius: 4px;
+  padding: 15px;
+  color: #e0e0e0;
+  line-height: 1.6;
+  font-size: 14px;
+  max-height: 300px;
+  overflow-y: auto;
+  word-break: break-word;
+}
+
+.message-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2a2f4a;
+  border-radius: 4px;
+  background: #0a0e27;
+  color: #e0e0e0;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  transition: border-color 0.2s ease;
+}
+
+.message-input:focus {
+  outline: none;
+  border-color: #5f9ed6;
+  box-shadow: 0 0 0 3px rgba(95, 158, 214, 0.1);
+}
+
+.send-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #5f9ed6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.send-btn:hover {
+  background: #4a8ec0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(95, 158, 214, 0.3);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.danger-btn {
+  padding: 10px 16px;
+  background: #c23a2a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.danger-btn:hover {
+  background: #a62820;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(194, 58, 42, 0.3);
+}
+
+.danger-btn.critical {
+  background: #8b1a1a;
+}
+
+.danger-btn.critical:hover {
+  background: #6b1515;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2a2f4a;
+  margin: 25px 0;
+}
+
+.root-node-info {
+  background: #1a3a2a;
+  border: 1px solid #2a5a4a;
+  border-radius: 4px;
+  padding: 12px;
+  color: #7ac97a;
+  font-size: 13px;
+}
+
+.root-node-info p {
+  margin: 0;
+}
