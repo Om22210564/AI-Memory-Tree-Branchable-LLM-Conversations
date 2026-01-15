@@ -1,5 +1,6 @@
 # AI Memory Tree – Branchable LLM Conversations
-!(UI.png)
+![UI image](UI.png)
+
 
 AI Memory Tree is a prototype chat system that stores conversations as a tree instead of a linear history.
 It allows users to jump back to any point and branch conversations without context pollution.
